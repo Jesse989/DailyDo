@@ -1,0 +1,133 @@
+
+@import url(https://fonts.googleapis.com/css?family=Nunito:700);
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url("https://www.dropbox.com/s/8bo2x7airmmwwds/music.jpg?raw=1");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container{
+  text-align: center;
+  background-color:;
+  margin-top: 30px;
+  
+}
+
+.keys {
+  border-radius: 2px;
+  text-decoration: none!important;
+  color: white;
+  font-family: Nunito;
+  font-size: 44px;
+  letter-spacing: 3px;
+  height: 55px;
+  width: 100px;
+  display: block;
+  box-shadow: 0 3px 2px rgba(0,0,0,1);
+  text-shadow: inset 0 6px 2px rgba(0,0,0,1);
+}
+
+.keys:hover {
+  height: 75px;
+  width: 110px;
+  font-size: 50px;
+  color: yellow;
+  box-shadow: 2px 2px 8px rgba(0,0,0,1);
+  text-shadow: inset 0px 6px 2px rgba(250,250,250,1);
+}
+
+.keys:active {
+  font-size: 45px;
+  height: 70px;
+  padding-top: 0px;
+  color: black;
+}
+
+#ti {
+  background-color: #A2C8D8;
+  background: linear-gradient(to bottom, rgba(130,172,230,1) 0%,rgba(157,197,237,1) 50%,rgba(146,190,238,1) 51%,rgba(196,221,244,1) 100%);
+}
+
+
+#la {
+  background-color: #00A758;
+  background: linear-gradient(to bottom, rgba(24,122,73,1) 0%,rgba(32,172,90,1) 50%,rgba(25,159,83,1) 51%,rgba(61,221,125,1) 100%);
+}
+
+#sol {
+  background-color: #FEE51B;
+  background: linear-gradient(to bottom, rgba(142,150,30,1) 0%,rgba(245,210,2,1) 50%,rgba(218,218,2,1) 51%,rgb(255, 201, 6) 100%);
+}
+
+#fa {
+  background-color: #F48633;
+  background: linear-gradient(to bottom, rgba(170,123,34,1) 0%,rgba(218,148,56,1) 50%,rgba(216,140,34,1) 51%,rgba(234,189,134,1) 100%);
+}
+
+#mi {
+  background-color: #DA343A;
+  background: linear-gradient(to bottom, rgba(119,29,7,1) 0%,rgba(167,27,9,1) 50%,rgba(153,27,7,1) 51%,rgba(232,34,12,1) 100%);
+}
+
+#re {
+  background-color: #A43592;
+  background: linear-gradient(to bottom, rgba(119,7,80,1) 0%,rgba(167,9,125,1) 50%,rgba(153,7,112,1) 51%,rgba(232,12,177,1) 100%);
+}
+
+#do1, #do2 {
+  background-color: #0E69A7;
+  background: linear-gradient(to bottom, rgba(30,36,154,1) 0%,rgba(42,65,216,1) 50%,rgba(32,52,202,1) 51%,rgba(126,142,232,1) 100%); 
+}
+
+
+img {
+  visibility: hidden;
+  height: 28px;
+  color: white;
+}
+
+img:click {
+  height: 65px;
+}
+
+h1 {
+  font-family: Nunito;
+  font-size: 24px;
+  margin: 5px;
+}
+
+#cPanel {
+  margin-top: 20px;
+  box-shadow: 0 2px 1px rgba(0,0,0,1);
+  background: rgba(255, 255, 255, 1);
+}
+
+#banner, #footer {
+  margin: 20px auto;
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+}
+
+#output {
+  height: 65px;
+  font-family: Nunito;
+  font-size: 36px;
+  color: #DA0B8D;
+  box-shadow: inset 0 2px 2px rgba(10,10,10,.5);
+}
+
+#out {
+  margin: -15px auto;
+}
+
+#hard, #easy {
+  margin: 1px;
+}
